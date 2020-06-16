@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>testecadastro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">teste</a>
+    <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarSite">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSite">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" hrlf="#">Inicio</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <form>
+    <div id="form-container">
+      <div class="panel" id="form-box">
+        <h1 class="text-center">Tela de Cadastro</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+
+        <div class="form-group">
+          <label for="txtNome">Nome:</label>
+          <input id="textNome" class="form-control" placeholder="Digite seu Nome" type="text" required>
+        </div>
+
+        <div class="col-md-1">
+        </div>
+
+        <div class="form-group">
+          <label for="txtCPF">CPF:</label>
+          <input type="cpf" id="CPF" name="cpf" placeholder="000.000.000-00" class="form-control input-md" required=""
+            type="text" maxlength="11" pattern="[0-9]+$" onkeypress="formatar('###.###.###-##')onBlur=" showhide()">
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+
+      <div class="form-group">
+        <label id="inputEmail">Email:</label>
+        <input type="email" class="form-control" id="txtEmail" placeholder="Digite seu e-mail"
+          data-error="Por favor, informe um e-mail correto." required>
+        <div class="help-block with-errors"></div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="col-md-1">
+      </div>
+
+      <div class="form-group">
+        <label for="txtDtNasc">Data de Nascimento:</label>
+        <input type="text" placeholder="Data de Nascimento" id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA"
+          class="form-control input-md" required="" type="number" maxlength="8"
+          OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
+      </div>
+
+    </div>
+
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" name="sexo" id="sexo" value="masculino" type="radio">
+        <label class="form-check-label" for="chkMasc">Masculino</label>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+
+
+        <div class="form-check">
+          <input class="form-check-input" id="sexo" input name="sexo" id="sexo" value="feminino" type="radio" required>
+          <label class="form-check-label" for="chkFem">Feminino</label>
+        </div>
+
+
+      </div>
+
+
+
+
+      <br>
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="row">
+              <div class="col-md-1">
+              </div>
+              <div class="form-group">
+                  <div class="col-md-7">
+                    </div>
+                <label for="inputPassword" class="control-label" id="validarsenhaforca" onkeyup="senhaforca()">Senha</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua Senha..."
+                  data-minlength="6" required>
+                <span class="help-block"></span>
+                <div class="help-block with-errors">
+            
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-md-7">
+                    </div>
+                <label for="inputConfirm" class="control-label">Confirme a Senha</label>
+                <input type="password" class="form-control" id="inputConfirm" placeholder="Confirme sua Senha..."
+                  data-match="#inputPassword" required data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="help-block with-errors">
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary bm-4">Salva</button>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+              </div>
+
+            </div>
+          </div>
+
+  </form>
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/popper.js"></script>
+  <script src="../node_modules/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
