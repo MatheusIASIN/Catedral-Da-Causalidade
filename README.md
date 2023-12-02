@@ -1,3 +1,2 @@
-# Catedral-Da-Causalidade
-esse o êxodo da minha carreira 
-Teste estudos falhas 
+# Catedral-Da-Causalidade- Módulos 
+O Módulo Vigilante é uma componente técnica crucial no projeto "Catedral da Causalidade - Segurança da Informação". Essencialmente, ele é projetado para atuar como a primeira linha de defesa contra ameaças cibernéticas, utilizando uma combinação de monitoramento ativo, detecção proativa e resposta imediata para garantir a integridade e segurança dos sistemas. Construído com a linguagem de programação Python e integrado a ferramentas avançadas de segurança, o Módulo Vigilante representa uma abordagem técnica sólida na prevenção e neutralização de potenciais ameaças à segurança da informação.
